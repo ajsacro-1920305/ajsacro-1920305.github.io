@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Austin's Website</title>
+        <link rel="stylesheet" href="anExternal.css">
+        <style>
+            .p1 {
+                font-family: "Times New Roman", Times, serif;
+            }
+            .p2 {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .p3 {
+                color: green;
+            }
+            .container {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .marg {
+                margin: 20px;
+            }
+            .dotted {
+                border-style: dotted;
+                padding: 20px;
+            }
+            section {
+                box-sizing: border-box;
+                width: 10%;
+                float: left;
+            }
+            .left {
+                float: left;
+                background: pink;
+            }
+            .right {
+                float: right;
+                background: cyan;
+            }
+            .rcorners {
+                border-radius: 25px;
+                border: 2px solid;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Level 1: Newbie</h1>
+        <p class="p1">This paragraph is in Times New Roman</p>
+        <p class="p2">This paragraph is in Arial</p>
+        <img src=”https://fyp.washington.edu/site/assets/files/21356/dubs1-780x495.jpg” title=”Dubs” style=”width:50px;height:50px;margin:5px”>
+        <br>
+        <img src=”https://images.unsplash.com/photo-1608796128659-b1be2e6fdab3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80” title=”Rainier” style=”width:50px;height:50px;margin:5px”>
+        <br>
+        <p class="p3">This paragraph is green</p>
+        <br>
+
+        <h1>Level 2: Apprentice</h1>
+
+        <div class="container">
+            <img src="https://images.unsplash.com/photo-1611416517780-eff3a13b0359?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eSUyMGF0JTIwbmlnaHR8ZW58MHx8MHx8&w=1000&q=80" alt="City" style="width:100%;">
+            <div class="centered">Centered</div>
+        </div>
+        <br>
+        <div class="marg">
+            <img src=”https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Muse_in_Sydney.jpg/800px-Muse_in_Sydney.jpg” alt=”Concert” style=”width:100px;height:100px;margin:20px”>
+        </div>
+        <br>
+        <p class="dotted">This text has a border that uses dotted lines</p>
+        <br>
+
+        <h1>Level 3: Master</h1>
+        <section>
+            <div class="left">1</div>
+            <div class="left">2</div>
+            <div class="right">3</div>
+            <p>float</p>
+        </section>
+        <br>
+        <p class="rcorners">This element has a border with rounded corners</p>
+    </body>
+</html>
